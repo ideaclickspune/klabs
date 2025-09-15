@@ -425,8 +425,51 @@ FOOTER CSS ENDS
     background-color: #ffffff; /* optional */
 }
 
-/*
+/* 
 ==========
  FLOATING BUTTON ENDS
-==========
- */
+========== */
+
+.features-section {
+  padding: 60px 20px;
+  background: #f8f9fa;
+  text-align: center;
+}
+.features-section .section-title {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 3.7rem;
+  margin-bottom: 40px;
+  font-weight: 700;
+  color: #000000;
+}
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.feature-item {
+  background: #fff;
+  border-radius: 12px;
+  padding: 25px 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.feature-item i {
+  font-size: 60px;
+  color: #173148;   /* change to your brand color */
+  margin-bottom: 15px;
+}
+.feature-item h3 {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+  line-height: 1.4;
+}
+.feature-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
